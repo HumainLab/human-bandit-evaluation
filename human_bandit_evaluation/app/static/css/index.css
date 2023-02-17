@@ -1,0 +1,159 @@
+.container {
+    padding 5em 0em;
+}
+
+.ui.divider.header {
+    margin-top: 5em;
+}
+
+.ui.divider {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+#chatroom {
+    padding-left: 2em;
+    margin-top: 1em;
+    border-style: solid;
+    border-color: lightblue;
+    height: 500px;
+    overflow: scroll;
+}
+
+#input-whole {
+    width: 100%;
+}
+
+#end {
+    width: 100px;
+}
+
+#loading {
+    width: 150px;
+    height: 150px;
+}
+
+.phrase {
+    style: black;
+}
+
+.secondary {
+    width: 7.5%;
+}
+
+.inactive-button {
+    opacity: 0.5;
+}
+
+.active-button {
+    opacity: 1.0;
+}
+
+.ui.button {
+    margin-bottom: 0.25em;
+}
+
+.button-wrapper {
+    text-align:center;
+    display:inline-block;
+    margin:10px;
+}
+
+form {
+    width: 20%;
+    margin-left: 40%;
+}
+
+.image-container {
+    width: 45%;
+    margin-left: 27.5%;
+}
+
+.image-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.double-image-container {
+    width: 30%;
+}
+
+.double-image-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.task-container {
+    width: 40%;
+    /*margin-left: 32.5%;*/
+    margin: 0 auto;
+}
+
+.error {
+    color: red;
+}
+
+.submit-error {
+    color: gray;
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    --SliderColor: #d3d3d3; /* Slider defaults to background color, otherwise #3198e5 */
+    width: 100%;
+    transition: opacity .2s;
+    background: #d3d3d3; /* Grey background */
+    border-radius: 5px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    width: 18px;
+    height: 18px;
+    transition: opacity .2s;
+    background-color: var(--SliderColor);
+    border-radius: 5px;
+}
+
+.slider::-moz-range-thumb {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    width: 18px;
+    height: 18px;
+    transition: opacity .2s;
+    background-color: var(--SliderColor);
+    border: transparent;
+    border-radius: 5px;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+.unselected-slider {
+    opacity: 0.3; /* Set transparency (for mouse-over effects on hover) */
+}
+
+.selected-slider {
+    opacity: 0.7; /* Once clicked, increase opacity. */
+}
+
+datalist {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.category {
+    width: 90px;
+    height: 30px;
+}
+
+.category2 {
+    width: 90px;
+    height: 30px;
+}

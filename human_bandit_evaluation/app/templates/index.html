@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Conversation Rating</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/index.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/emojione@4.0.0/extras/css/emojione.min.css" />
+    <link rel='shortcut icon' type='image/x-icon' href='/static/images/favicon.ico' />
+    <script src="https://cdn.jsdelivr.net/npm/emojione@4.0.0/lib/js/emojione.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"> </script>
+    <script src="static/js/moment.min.js"></script>
+    <script src="static/js/index.js"></script>
+</head>
+
+<body>
+    <!-- Your Semantic UI Code -->
+    <div class="container">
+
+        <!-- Top Menu, contains session-->
+        <div class="ui large top fixed hidden menu">
+            <div class="ui container">
+		 <a class="item" id="session">Session Task {{ task_id }}</a>
+            </div>
+        </div>
+
+        <div class="ui hidden divider"></div>
+
+        <!-- Main Body -->
+	<div class="ui three column very relaxed grid">
+
+		<div class="image-container">
+   		    <img src="{{ img_path }}" id="content_object">
+		</div>
+
+		<div class="task-container">
+		    <div class="hidden-user-response-error-msg error"></div>
+		    <div class="slidecontainer"><br>
+		    <label for="user_response"><div style="margin-bottom: 3%">Rate your enjoyment of the comic between 1 and 9.</div><strong>Score:</strong> </label><span id="user_slider_response_value"><em>none</em></span><br>
+			<input type="range" class="slider" min="10" max="90" id="user_response" name="user_response">
+            <!-- For loop padding with additional elements is used because labels 1 and 10 appearing at
+                 opposite endpoints leads to spacing issues. -->
+                    <datalist id="user_response" style="margin-bottom: 1%">
+                        <label for="option_1"><div><div style="text-align:left">1</div><i>Disliked a lot</i></div></label>
+                        <option value="10" id="option_1"></option>
+                        {% for i in range(11, 30, 1) %}<option style="padding:0" value="{{ i }}"></option>{% endfor %}
+                        <label for="option_3"><div><div style="text-align:center">3<br><i>Somewhat disliked</i></div></div></label>
+                        <option value="30" id="option_3"></option>
+                        {% for i in range(31, 50, 1) %}<option style="padding:0" value="{{ i }}"></option>{% endfor %}
+                        <label for="option_5"><div><div style="text-align:center">5<br><i>Neutral</i></div></div></label>
+                        <option value="50" id="option_5"></option>
+                        {% for i in range(51, 70, 1) %}<option style="padding:0" value="{{ i }}"></option>{% endfor %}
+                        <label for="option_7"><div><div style="text-align:center">7</div><i>Somewhat enjoyed</i></div></label>
+                        <option value="70" id="option_7"></option>
+                        {% for i in range(71, 90, 1) %}<option style="padding:0" value="{{ i }}"></option>{% endfor %}
+                        <option value="90" id="option_9"></option>
+                        <label for="option_9"><div><div style="text-align:right">9</div><i>Enjoyed a lot</i></div></label>
+                    </datalist>
+                </div>
+
+		    {% if categories %}
+		        <div id="category-buttons" style="margin-top: 3%">
+		    	    <div class="hidden-category-error-msg error"></div>
+		            {% if is_user_selected %}
+			    <div>Select the next category of comic that <strong>you would like to view</strong>.</div>
+			    {% else %}
+			    <div>Select the category that you believe this comic <strong>belongs to</strong>.</div>
+		            {% endif %}
+			    <div id="category-buttons-container">
+		                {% for i, category, color in categories %}
+			        {% if 'Political' in category %}
+		                  <button class="ui secondary button category inactive-button"
+			                  style="background-color:{{ color }};
+			            	     width: fit-content;
+			            	     padding: 0px 10px 0px 10px" id="{{ category }}"><nobr>{{ category }}</nobr></button>
+			        {% else %}
+		                  <button class="ui secondary button category inactive-button"
+			                  style="background-color:{{ color }};
+			            	     width: 60px;
+			            	     padding: 0px 5px 0px 5px" id="{{ category }}">{{ category }}</button>
+			        {% endif %}
+                                {% endfor %}
+			    </div>
+			</div>
+		    {% endif %}
+
+            {% if attention_checks %}
+              {% for attention_check in attention_checks %}
+                <div style="margin-top: 3%">
+		          <div class="hidden-attention-error-msg error"></div>
+                  <label for="question{{ loop.counter }}">{{ attention_check['question'] }}</label>
+                  <input type='text' class='attention_check' id="question{{ loop.counter }}" style="width: 5%" question="{{ attention_check['question'] }}"/><br>
+                </div>
+              {% endfor %}
+            {% endif %}
+		</div>
+
+	    </div>
+    <div class="ui divider"></div>
+    <div class="ui one column stackable center aligned page grid">
+        <div class="ui action input" id="submit">
+	    <div class="button-wrapper">
+    	        <p class="hidden-submit-button-error-msg submit-error"></p>
+                <button class="red large ui button" id="end-button">Submit</button>
+	    </div>
+        </div>
+    </div>
+
+    <!-- End of Container -->
+    </div>
+
+    <!-- Error Message Modal -->
+    <div class="ui modal" id="message-modal">
+        <div class="header">We want to tell you...</div>
+        <div class="content">
+        </div>
+        <div class="actions">
+            <div class="ui cancel button">Close</div>
+        </div>
+    </div>
+
+</body>
+
+</html>

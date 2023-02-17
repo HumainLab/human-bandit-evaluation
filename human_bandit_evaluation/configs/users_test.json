@@ -1,0 +1,906 @@
+[
+  {
+    "user_id": 1,
+    "username": "82b8cbc4-7777-48f0-abf4-cca299d36943",
+    "password": "293077454126563071602824019639780822894",
+    "survey_code": "333126608014828633986779552860329962937",
+    "algorithm": "user_selected"
+  },
+  {
+    "user_id": 2,
+    "username": "260340f9-2d52-4ca5-a582-16d2fd7190d2",
+    "password": "279863451980003640204961610581061369334",
+    "survey_code": "163046875435812137680418418940339453458",
+    "algorithm": "user_selected"
+  },
+  {
+    "user_id": 3,
+    "username": "58c18108-1a14-4b07-9047-9861810ee1c5",
+    "password": "205108538953611987725528802625735714619",
+    "survey_code": "302598626035420051573448411596533763347",
+    "algorithm": "user_selected"
+  },
+  {
+    "user_id": 4,
+    "username": "46b466d6-40e5-40d8-a09d-8e5da068f7ee",
+    "password": "228222754044000441240538129175597097758",
+    "survey_code": "225815033128061693627641730595510283558",
+    "algorithm": "user_selected"
+  },
+  {
+    "user_id": 5,
+    "username": "65163c21-c430-42b3-9706-f1f781549503",
+    "password": "221212623518212464745183146099265472872",
+    "survey_code": "312610728344670047480210845889107940258",
+    "algorithm": "user_selected"
+  },
+  {
+    "user_id": 6,
+    "username": "8ed67913-3a41-42fb-9459-39f29965b3dc",
+    "password": "53308616110418594605695891063553580064",
+    "survey_code": "110216880371705657427282100278679356393",
+    "algorithm": "user_selected",
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 7,
+    "username": "bfcec3b5-08ad-4e8d-9406-3fe9371092e0",
+    "password": "212753940718926675789678292415209083524",
+    "survey_code": "307717455071543693581100610966384047466",
+    "algorithm": "user_selected",
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 8,
+    "username": "f7899b64-eebf-4c11-b05e-8881463b8e3e",
+    "password": "44277988207196183987715392773742476295",
+    "survey_code": "82701911489803910558179747841388792109",
+    "algorithm": "user_selected",
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 9,
+    "username": "43c894e3-5033-4ef0-9132-3f0df37544e9",
+    "password": "162729527944844230592933303038243374092",
+    "survey_code": "57244029328323730708243919244985514277",
+    "algorithm": "user_selected",
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 10,
+    "username": "31b876f3-b6dc-4c4d-8feb-33b3add30a1e",
+    "password": "236599953674800278281725993545702328716",
+    "survey_code": "8923396187459683429501264160088515637",
+    "algorithm": "user_selected",
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 11,
+    "username": "b80b9181-e755-41bf-9b77-24bd047b541c",
+    "password": "55453958016785255057018087697392938978",
+    "survey_code": "78490700762407112465062786404764722434",
+    "algorithm": "fixed_sequence",
+    "fixed_task_parameters": [
+        {"category": "Family"}, {"category": "Family"}, {"category": "Family"}, {"category": "Family"},
+        {"category": "Family"},
+        {"category": "Gag"}, {"category": "Gag"}, {"category": "Gag"}, {"category": "Gag"},
+        {"category": "Gag"}, 
+        {"category": "Political"}, {"category": "Political"}, {"category": "Political"}, {"category": "Political"},
+        {"category": "Political"},
+        {"category": "Office"}, {"category": "Office"}, {"category": "Office"}, {"category": "Office"},
+        {"category": "Office"}
+    ]
+  },
+  {
+    "user_id": 12,
+    "username": "7406dc19-8332-4887-a11f-f744b1854b56",
+    "password": "5284495339374303736714423551494888605",
+    "survey_code": "195168200483379899038380434918434731806",
+    "algorithm": "fixed_sequence",
+    "fixed_task_parameters": [
+        {"category": "Family"}, {"category": "Family"}, {"category": "Family"}, {"category": "Family"},
+        {"category": "Family"},
+        {"category": "Gag"}, {"category": "Gag"}, {"category": "Gag"}, {"category": "Gag"},
+        {"category": "Gag"}, 
+        {"category": "Political"}, {"category": "Political"}, {"category": "Political"}, {"category": "Political"},
+        {"category": "Political"},
+        {"category": "Office"}, {"category": "Office"}, {"category": "Office"}, {"category": "Office"},
+        {"category": "Office"}
+    ]
+  },
+  {
+    "user_id": 13,
+    "username": "fb78a3fa-b12c-4e7d-9d67-40d875596f00",
+    "password": "252675619177652694717840006805841455619",
+    "survey_code": "11764381293231072247797170701483389301",
+    "algorithm": "fixed_sequence",
+    "fixed_task_parameters": [
+        {"category": "Family"}, {"category": "Family"}, {"category": "Family"}, {"category": "Family"},
+        {"category": "Family"},
+        {"category": "Gag"}, {"category": "Gag"}, {"category": "Gag"}, {"category": "Gag"},
+        {"category": "Gag"}, 
+        {"category": "Political"}, {"category": "Political"}, {"category": "Political"}, {"category": "Political"},
+        {"category": "Political"},
+        {"category": "Office"}, {"category": "Office"}, {"category": "Office"}, {"category": "Office"},
+        {"category": "Office"}
+    ]
+  },
+  {
+    "user_id": 14,
+    "username": "ab98c54e-4ddf-4154-8c9c-656cba483f44",
+    "password": "331678324475082127261397872211185326596",
+    "survey_code": "129302048674883220132541015586011022209",
+    "algorithm": "fixed_sequence",
+    "fixed_task_parameters": [
+        {"category": "Family"}, {"category": "Family"}, {"category": "Family"}, {"category": "Family"},
+        {"category": "Family"},
+        {"category": "Gag"}, {"category": "Gag"}, {"category": "Gag"}, {"category": "Gag"},
+        {"category": "Gag"}, 
+        {"category": "Political"}, {"category": "Political"}, {"category": "Political"}, {"category": "Political"},
+        {"category": "Political"},
+        {"category": "Office"}, {"category": "Office"}, {"category": "Office"}, {"category": "Office"},
+        {"category": "Office"}
+    ]
+  },
+  {
+    "user_id": 15,
+    "username": "494e915c-9e45-4f7d-a5bf-80d91cbc704b",
+    "password": "328009261378939437613794720600494163594",
+    "survey_code": "329962117063066606126412034672520979795",
+    "algorithm": "fixed_sequence",
+    "fixed_task_parameters": [
+        {"category": "Family"}, {"category": "Family"}, {"category": "Family"}, {"category": "Family"},
+        {"category": "Family"},
+        {"category": "Gag"}, {"category": "Gag"}, {"category": "Gag"}, {"category": "Gag"},
+        {"category": "Gag"}, 
+        {"category": "Political"}, {"category": "Political"}, {"category": "Political"}, {"category": "Political"},
+        {"category": "Political"},
+        {"category": "Office"}, {"category": "Office"}, {"category": "Office"}, {"category": "Office"},
+        {"category": "Office"}
+    ],
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 16,
+    "username": "37042bfb-3e64-47b7-a55e-6cfa054c6e42",
+    "password": "248711134130951043017755202625181565322",
+    "survey_code": "8638950838074887727971554000271662155",
+    "algorithm": "fixed_sequence",
+    "fixed_task_parameters": [
+        {"category": "Family"}, {"category": "Family"}, {"category": "Family"}, {"category": "Family"},
+        {"category": "Family"},
+        {"category": "Gag"}, {"category": "Gag"}, {"category": "Gag"}, {"category": "Gag"},
+        {"category": "Gag"}, 
+        {"category": "Political"}, {"category": "Political"}, {"category": "Political"}, {"category": "Political"},
+        {"category": "Political"},
+        {"category": "Office"}, {"category": "Office"}, {"category": "Office"}, {"category": "Office"},
+        {"category": "Office"}
+    ],
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 17,
+    "username": "9d148bbe-2bbc-4c3b-9d68-e36416bfd907",
+    "password": "254820568982411588632507434917438913724",
+    "survey_code": "340190205079263526471035473320942080364",
+    "algorithm": "fixed_sequence",
+    "fixed_task_parameters": [
+        {"category": "Family"}, {"category": "Family"}, {"category": "Family"}, {"category": "Family"},
+        {"category": "Family"},
+        {"category": "Gag"}, {"category": "Gag"}, {"category": "Gag"}, {"category": "Gag"},
+        {"category": "Gag"}, 
+        {"category": "Political"}, {"category": "Political"}, {"category": "Political"}, {"category": "Political"},
+        {"category": "Political"},
+        {"category": "Office"}, {"category": "Office"}, {"category": "Office"}, {"category": "Office"},
+        {"category": "Office"}
+    ],
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 18,
+    "username": "8c3e4d8d-da2b-4505-a0ca-4af025ff6b5e",
+    "password": "185549660972859161365803688047672120395",
+    "survey_code": "138185294044749659089043270735664739496",
+    "algorithm": "fixed_sequence",
+    "fixed_task_parameters": [
+        {"category": "Family"}, {"category": "Family"}, {"category": "Family"}, {"category": "Family"},
+        {"category": "Family"},
+        {"category": "Gag"}, {"category": "Gag"}, {"category": "Gag"}, {"category": "Gag"},
+        {"category": "Gag"}, 
+        {"category": "Political"}, {"category": "Political"}, {"category": "Political"}, {"category": "Political"},
+        {"category": "Political"},
+        {"category": "Office"}, {"category": "Office"}, {"category": "Office"}, {"category": "Office"},
+        {"category": "Office"}
+    ],
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 19,
+    "username": "68fac5c7-ac1e-4a9a-a8c3-1175bd347e1d",
+    "password": "39252675071635348687071574569713046451",
+    "survey_code": "265803449003169631397751583625587713504",
+    "algorithm": "fixed_sequence",
+    "fixed_task_parameters": [
+        {"category": "Family"}, {"category": "Family"}, {"category": "Family"}, {"category": "Family"},
+        {"category": "Family"},
+        {"category": "Gag"}, {"category": "Gag"}, {"category": "Gag"}, {"category": "Gag"},
+        {"category": "Gag"}, 
+        {"category": "Political"}, {"category": "Political"}, {"category": "Political"}, {"category": "Political"},
+        {"category": "Political"},
+        {"category": "Office"}, {"category": "Office"}, {"category": "Office"}, {"category": "Office"},
+        {"category": "Office"}
+    ],
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 20,
+    "username": "e02a99ff-b9a5-4e5d-b3e9-3cb5c8346c5f",
+    "password": "230470869868464159026860114258454699711",
+    "survey_code": "116150220490135257776203451225372496573",
+    "algorithm": "fixed_sequence",
+    "fixed_task_parameters": [
+        {"category": "Family"}, {"category": "Family"}, {"category": "Family"}, {"category": "Family"},
+        {"category": "Family"},
+        {"category": "Gag"}, {"category": "Gag"}, {"category": "Gag"}, {"category": "Gag"},
+        {"category": "Gag"}, 
+        {"category": "Political"}, {"category": "Political"}, {"category": "Political"}, {"category": "Political"},
+        {"category": "Political"},
+        {"category": "Office"}, {"category": "Office"}, {"category": "Office"}, {"category": "Office"},
+        {"category": "Office"}
+    ],
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 21,
+    "username": "3c451b23-9775-4e40-a527-037f5e912802",
+    "password": "209884522985273204794607391268241666709",
+    "survey_code": "2407843690040089887961186725014718286",
+    "algorithm": "fixed_sequence",
+    "fixed_task_parameters": [
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"}
+    ]
+  },
+  {
+    "user_id": 22,
+    "username": "4f6c02b0-268a-4dbd-aff0-b8e2828336b4",
+    "password": "105612335579488593260829664597110190639",
+    "survey_code": "100767377869341439647820518424541311300",
+    "algorithm": "fixed_sequence",
+    "fixed_task_parameters": [
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"}
+    ]
+  },
+  {
+    "user_id": 23,
+    "username": "e493594a-7849-4cbe-a100-a6604523c6ac",
+    "password": "259325892398782270470942719848849805326",
+    "survey_code": "235618422611958890839121312231677505238",
+    "algorithm": "fixed_sequence",
+    "fixed_task_parameters": [
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"}
+    ]
+  },
+  {
+    "user_id": 24,
+    "username": "3f98eb3e-bca6-4e31-ba9b-14c53c58c7f7",
+    "password": "78209323833306152085831942616612676770",
+    "survey_code": "47437563911172720208382950320466722148",
+    "algorithm": "fixed_sequence",
+    "fixed_task_parameters": [
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"}
+    ]
+  },
+  {
+    "user_id": 25,
+    "username": "618c8f65-1a79-4c19-bb9f-507cf616b7c9",
+    "password": "114944209021466967021584496467365803276",
+    "survey_code": "181957107039345079587938223442155898646",
+    "algorithm": "fixed_sequence",
+    "fixed_task_parameters": [
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"}
+    ]
+  },
+  {
+    "user_id": 26,
+    "username": "beb2e54a-98d5-4247-916d-68d93c812580",
+    "password": "122399289208375563004059350896452134483",
+    "survey_code": "6759525242691602702956099574316289845",
+    "algorithm": "fixed_sequence",
+    "fixed_task_parameters": [
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"}
+    ],
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 27,
+    "username": "43bcc282-bb9f-4731-8885-70ac1423260a",
+    "password": "97838200234899909019147186113519956196",
+    "survey_code": "127520417183513413368393761777587945600",
+    "algorithm": "fixed_sequence",
+    "fixed_task_parameters": [
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"}
+    ],
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 28,
+    "username": "4714b303-ac3f-41d6-b7b3-e05f77163bb1",
+    "password": "138870359971929715774745908166087086363",
+    "survey_code": "33082271019701921061091052530495538469",
+    "algorithm": "fixed_sequence",
+    "fixed_task_parameters": [
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"}
+    ],
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 29,
+    "username": "549445cd-009e-4205-a8bd-bb49929d0d16",
+    "password": "266661514059044570441242618145056306560",
+    "survey_code": "330482697525459204521728927069299292640",
+    "algorithm": "fixed_sequence",
+    "fixed_task_parameters": [
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"}
+    ],
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 30,
+    "username": "740e73f4-abf7-4ea4-936f-bc1cedd77d48",
+    "password": "157849500280298069021753604562719062798",
+    "survey_code": "334745339399118865160280518849614182431",
+    "algorithm": "fixed_sequence",
+    "fixed_task_parameters": [
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"},
+                                                    
+        {"category": "Family",    "sample_method": "random"},
+        {"category": "Gag",       "sample_method": "random"},
+        {"category": "Political", "sample_method": "random"},
+        {"category": "Office",    "sample_method": "random"}
+    ],
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 31,
+    "username": "abb6f00b-0958-445f-bba6-d5710bfe7575",
+    "password": "279922536529351584300445301042443944142",
+    "survey_code": "80211621154801723033075899314762358659",
+    "algorithm": "ucb"
+  },
+  {
+    "user_id": 32,
+    "username": "755cdc66-ba46-48bc-ace7-60b43a56d3fe",
+    "password": "210317356617767226967202245966561077739",
+    "survey_code": "70176466511936030043594384919804525298",
+    "algorithm": "ucb"
+  },
+  {
+    "user_id": 33,
+    "username": "9ee0dc09-7dbe-4b0e-8dfe-98398c041905",
+    "password": "216268849940550396655737071318380614293",
+    "survey_code": "166052330448224708114144673886836308638",
+    "algorithm": "ucb"
+  },
+  {
+    "user_id": 34,
+    "username": "575e5d67-73db-49a1-908d-c8c9798bf1b5",
+    "password": "109123336516689334356034210283125837973",
+    "survey_code": "213769770866233390004643573956833733135",
+    "algorithm": "ucb"
+  },
+  {
+    "user_id": 35,
+    "username": "b72bbb68-b5ae-442a-864b-d531937c47c5",
+    "password": "158965691263953160211963299490764578047",
+    "survey_code": "286328026265881555787307659405319795822",
+    "algorithm": "ucb",
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 36,
+    "username": "e2bf6bad-f178-4c0e-8502-31e61fbd6c0f",
+    "password": "291132701694787624883240048595620966840",
+    "survey_code": "162910542973571605954030753538505054178",
+    "algorithm": "ucb",
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 37,
+    "username": "89033ee6-a09e-4268-ad80-0b668e35db5d",
+    "password": "71300501643918067781840993248530756726",
+    "survey_code": "134647142344005624828748940347625594739",
+    "algorithm": "ucb",
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 38,
+    "username": "55b3e6a5-fd7b-489d-9a4b-de301ba96c3b",
+    "password": "227416800285791114855460627780698371563",
+    "survey_code": "330579767443220135113122342875286784903",
+    "algorithm": "ucb",
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 39,
+    "username": "be029e88-028a-4308-b62a-ca281807bd55",
+    "password": "299834488542448464435448677808978241745",
+    "survey_code": "40259100903325887040020640750431524131",
+    "algorithm": "ucb",
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  },
+  {
+    "user_id": 40,
+    "username": "e6d990f4-507a-47d9-9f7f-658326c0c4de",
+    "password": "20652882144130409764087179312231943698",
+    "survey_code": "203215231631529890382543025684609699330",
+    "algorithm": "ucb",
+    "survey_parameters": [
+	    {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"},
+            {"survey_type": "pairwise_memory"}, {"survey_type": "pairwise_memory"}
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Conversation Rating</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/index.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/emojione@4.0.0/extras/css/emojione.min.css" />
+    <link rel='shortcut icon' type='image/x-icon' href='/static/images/favicon.ico' />
+    <script src="https://cdn.jsdelivr.net/npm/emojione@4.0.0/lib/js/emojione.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"> </script>
+    <script src="static/js/moment.min.js"></script>
+    <script src="static/js/index.js"></script>
+</head>
+
+<body>
+    <!-- Your Semantic UI Code -->
+    <div class="container">
+
+        <!-- Top Menu, contains session-->
+        <div class="ui large top fixed hidden menu"></div>
+
+        <div class="ui hidden divider"></div>
+
+	<div style="margin-left: 25%; margin-right: 25%">
+		<div>You will now complete a short post-study survey about your general experience with the comic reading study.</div><br>
+		<div>First, we will check how well you remember your experience with certain comics in the study, such as
+		     asking what score you remember giving the comic or whether you recall reading the comic.
+		     <br>(<i>Although it is not necessary to be completely accurate in order to receive compensation, we would be
+			     very appreciative if you can answer it to the best of your ability.</i>)</div>
+                <div>Finally, we will ask you two brief questions about your overall experience.</div><br>
+		<div>Once you are finished reading this message, please press <i>Continue</i> below to begin the survey.</div>
+	    </div>
+        </div>
+
+    <div class="ui divider"></div>
+    <div class="ui one column stackable center aligned page grid">
+        <div class="ui action input" id="submit-end-of-study">
+	    <div class="button-wrapper">
+    	        <p class="hidden-submit-button-error-msg submit-error"></p>
+                <button class="red large ui button" id="end-button">Continue</button>
+	    </div>
+        </div>
+    </div>
+
+    <!-- End of Container -->
+    </div>
+
+    <!-- Error Message Modal -->
+    <div class="ui modal" id="message-modal">
+        <div class="header">We want to tell you...</div>
+        <div class="content">
+        </div>
+        <div class="actions">
+            <div class="ui cancel button">Close</div>
+        </div>
+    </div>
+
+</body>
+
+</html>

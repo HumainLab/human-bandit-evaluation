@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Conversation Rating</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/index.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/emojione@4.0.0/extras/css/emojione.min.css" />
+    <link rel='shortcut icon' type='image/x-icon' href='/static/images/favicon.ico' />
+    <script src="https://cdn.jsdelivr.net/npm/emojione@4.0.0/lib/js/emojione.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"> </script>
+    <script src="static/js/moment.min.js"></script>
+    <script src="static/js/index.js"></script>
+</head>
+
+<body>
+    <!-- Your Semantic UI Code -->
+    <div class="container">
+
+        <!-- Top Menu, contains session-->
+        <div class="ui large top fixed hidden menu"></div>
+
+        <div class="ui hidden divider"></div>
+
+	{% if error %}
+            <div class="error" style="margin-left: 30%;width: 40%">{{ error }}</div><br>
+	{% endif %}
+
+	{% if username %}
+	    <div style="margin-left: 30%">
+	        <div>Successfully entered MTurk ID! Please login using the following username and password to start the study.</div><br>
+	        <span><em>Username</em>: {{ username }}</span><br>
+		<span><em>Password</em>: {{ password }}</span><br><br>
+	        <div>You can login automatically by clicking this <a href="login/user={{ username }}/password={{ password }}">link</a> or at the <a href="login">login page</a>.</div>
+            </div>
+	{% else %}
+            <form action='mturk_authenticate' method='POST'>
+	        <input type='username' name='mturk_id' id='mturk_id' placeholder='<mturk id>'/><br>
+                <input type='submit' name='submit' value='Submit'/>
+            </form>
+	{% endif %}
+
+
+    <!-- End of Container -->
+    </div>
+</body>
+
+</html>

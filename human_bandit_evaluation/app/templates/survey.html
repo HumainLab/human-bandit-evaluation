@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Conversation Rating</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/index.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/emojione@4.0.0/extras/css/emojione.min.css" />
+    <link rel='shortcut icon' type='image/x-icon' href='/static/images/favicon.ico' />
+    <script src="https://cdn.jsdelivr.net/npm/emojione@4.0.0/lib/js/emojione.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"> </script>
+    <script src="static/js/moment.min.js"></script>
+    <script src="static/js/index.js"></script>
+</head>
+
+<body>
+    <!-- Your Semantic UI Code -->
+    <div class="container">
+
+        <!-- Top Menu, contains session-->
+        <div class="ui large top fixed hidden menu">
+            <div class="ui container">
+		 <a class="item" id="session">Survey Task {{ task_id }}</a>
+            </div>
+        </div>
+
+        <div class="ui hidden divider"></div>
+
+        <!-- Main Body -->
+	<div class="ui three column very relaxed grid">
+
+          {% if image_path1 %}
+            {% if image_path1 and image_path2 %}
+              <div class="double-image-container" style="margin-left: 20%">
+                <img src="{{ image_path1 }}" id="content_object1">
+              </div>
+              <div class="double-image-container" style="margin-left: 5%">
+                <img src="{{ image_path2 }}" id="content_object2">
+	      </div>
+            {% else %}
+              <div class="image-container"><img src="{{ image_path1 }}" id="content_object"></div>
+            {% endif %}
+
+            <div style="margin-left: 35%; margin-top: 2%">
+            <div id="category-buttons">
+               <div class="hidden-category-error-msg error"></div>
+	       {% if survey_type == 'pairwise_memory' %}
+                   Which comic (left or right) did you rate more highly? &nbsp;
+                   <button class="ui secondary button category inactive-button" style="background-color:{{ color }}" id="Left">Left</button>
+                   <button class="ui secondary button category inactive-button" style="background-color:{{ color }}" id="Right">Right</button>
+               {% elif survey_type == 'memory' %}
+	       To the best of your knowledge, was the above comic shown during the study? &nbsp; <br>
+                     <button class="ui secondary button category inactive-button" style="background-color:{{ color }}" id="Yes">Yes</button>
+                     <button class="ui secondary button category inactive-button" style="background-color:{{ color }}" id="No">No</button>
+               {% else %}
+                     To the best of your knowledge, was your rating for this comic greater than or equal to 5?<br>
+                     <button class="ui secondary button category inactive-button" style="background-color:{{ color }}; width:40%" id="Yes">Greater than or equal to 5</button>
+                     <button class="ui secondary button category inactive-button" style="background-color:{{ color }}; width:25%" id="No">Less than 5</button>
+               {% endif %}
+            </div>
+            </div>
+	  {% else %}
+            <div style="margin-left: 35%; margin-top: 2%">
+	      <!--Display survey questions-->
+              <!--<label for="survey_question1">Do you prefer exploring on your own or using an algorithm?</label>
+                  <input type='text' class="survey_question" id="survey_question1" style="width: 15%; margin-bottom: 2%"/><br>
+	          <label for="survey_question2">Do you feel that the algorithm learned your preferences well?</label>
+		  <input type='text' class="survey_question" id="survey_question2" style="width: 15%"/><br>-->
+
+              <div class="hidden-category-error-msg error"></div>
+              <div id="survey_question1" style="margin-bottom: 2%" class="survey_question"
+		   title="Do you prefer being recommended comics to read or selecting comics to read on your own?">
+              Do you prefer being recommended comics to read or selecting comics to read on your own? &nbsp;
+              <button class="ui secondary button category inactive-button"
+		      style="background-color:{{ color }}; width: fit-content; padding: 0px 10px 0px 10px" id="Yes">Recommended</button>
+	      <button class="ui secondary button category inactive-button"
+		      style="background-color:{{ color }}; width: fit-content; padding: 0px 10px 0px 10px" id="No">Select on My Own</button><br>
+	      </div>
+
+              <div class="hidden-category2-error-msg error"></div>
+	      <div id="survey_question2" style="margin-bottom: 2%" class="survey_question"
+		   title="Do you feel that the sequence of recommendations captured your preferences well?">
+              Do you feel that the sequence of recommendations captured your preferences well? &nbsp;
+              <button class="ui secondary button category2 inactive-button" style="background-color:{{ color }}" id="Yes">Yes</button>
+              <button class="ui secondary button category2 inactive-button" style="background-color:{{ color }}" id="No">No</button>
+	      </div>
+	    </div>
+	  {% endif %}
+	</div>
+      </div>
+
+    <div class="ui divider"></div>
+    <div class="ui one column stackable center aligned page grid">
+        <div class="ui action input" id="submit-survey">
+	    <div class="button-wrapper">
+    	        <p class="hidden-submit-button-error-msg submit-error"></p>
+                <button class="red large ui button" id="end-button">Submit</button>
+	    </div>
+        </div>
+    </div>
+
+    <!-- End of Container -->
+    </div>
+
+    <!-- Error Message Modal -->
+    <div class="ui modal" id="message-modal">
+        <div class="header">We want to tell you...</div>
+        <div class="content">
+        </div>
+        <div class="actions">
+            <div class="ui cancel button">Close</div>
+        </div>
+    </div>
+
+</body>
+
+</html>

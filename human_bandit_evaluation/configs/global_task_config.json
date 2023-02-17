@@ -1,0 +1,11 @@
+{
+  "comics_per_entry": 1,
+  "num_entries_to_show": 50,
+  "num_survey_entries_to_show": 6,
+  "fixed_task_parameters": {
+      "sample_method": "increasing_order"
+  },
+  "survey_parameters": {
+      "survey_type": "memory"
+  }
+}
