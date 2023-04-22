@@ -4,8 +4,6 @@ This is the web interface and database backend for studying how recommendations 
 
 The comics used for our experiements are under `human_bandit_evaluation/app/static/images` and the comic interaction results are in an exported MongoDB database under `human_bandit_evaluation/database/mdb`.
 
-TODO: Add a License.
-
 ### Installation
 
 First, install requirements
