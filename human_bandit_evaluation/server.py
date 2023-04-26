@@ -214,11 +214,9 @@ def mturk_authenticate():
         else:
             username, password = u['username'], u['password']
     elif request.method == 'POST':
-        # TODO: Change this call to the fake mturk database to an actual call to
-        #       MTurk where we check if this ID is valid.
         mturk_id = request.form['mturk_id']
         mturk_validation_result = validate_mturk_status(mturk_id)
-        # if mturk_id not in fake_mturk_database:
+        # if mturk_id not in fake_mturk_database:    \\ This is for debugging.
         if mturk_validation_result == MTurkApprovalStatus.MTurkIDNotFound:
             error = error_msg
         elif mturk_validation_result == MTurkApprovalStatus.IncorrectQualtricsCode:
